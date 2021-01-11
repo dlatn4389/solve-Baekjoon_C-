@@ -3,7 +3,7 @@
 int main() {
     char mbti[4];
     std::cin >> mbti;
-    char lover[4];
+    char lover[10];
     if (mbti[0]=='E') {
         lover[0] = 'I';
     }
@@ -28,7 +28,6 @@ int main() {
     else {
         lover[3] = 'J';
     }
-    for (char c : lover) {
-        std::cout << c;
-    }
+    lover[4] = 0;
+    std::cout << lover;
 }
