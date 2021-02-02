@@ -5,18 +5,29 @@ int nums[200];
 
 int main() {
     int N; cin >> N;
-    for (int i=0; i<200; i++) {
-        nums[i] = 0;
-    }
-    for (int index=0; index<N; N++) {
+    int nums[N];
+
+    for (int i=0; i<N; i++) {
         int input; cin >> input;
-        while (true) {
-            if (nums[index+100-input]!=0) {
-                input += 1;
-            }
+
+        int index = 0;
+        int save[N];
+        for (int j=0; j<N; j++) {
+            save[j] = nums[j];
+        }
+        for (int j=0; j<N; j++) {
+            if (j==i-input) nums[j] = i+1;
             else {
-                nums[index+100-input]
+                nums[j] = save[index];
+                index++;
             }
         }
+        /*for (int i : nums) {
+            cout << i << " ";
+        }
+        cout << '\n';*/
+    }
+    for (int i : nums) {
+        cout << i << " ";
     }
 }
