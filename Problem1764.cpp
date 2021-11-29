@@ -53,6 +53,6 @@ int main() {
   cout << names.size() << endl;
   sort(names.begin(), names.end());
   for (string name: names) {
-    cout << name << endl;
+    cout << name << endl
   }
 }
