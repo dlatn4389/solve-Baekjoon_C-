@@ -45,6 +45,6 @@ int main() {
         start = mid+1;
       }
     }
-    cout << password << '\n';
+    cout << password << endl;
   }
 }
