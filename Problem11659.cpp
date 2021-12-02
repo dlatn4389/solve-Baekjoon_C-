@@ -27,6 +27,6 @@ int main() {
   while (M--) {
     int i, j; cin >> i >> j;
     int sum = arr[j]-arr[i-1];
-    cout << sum << endl;
+    cout << sum << '\n';
   }
 }
