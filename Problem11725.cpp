@@ -44,6 +44,6 @@ int main() {
   dfs(1);
 
   for (int i=2; i<=N; i++) {
-    cout << parent[i] << endl;
+    cout << parent[i] << '\n';
   }
 }
