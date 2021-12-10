@@ -45,6 +45,6 @@ int main() {
         dfs(i);
       }
     }
-    cout << answer << '\n';
+    cout << answer << endl;
   }
 }
