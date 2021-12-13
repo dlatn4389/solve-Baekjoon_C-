@@ -82,6 +82,7 @@ int main() {
             }
         }
     }
+    
     bfs();
     cout << check();
 }
