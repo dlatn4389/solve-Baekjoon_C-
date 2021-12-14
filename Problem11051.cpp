@@ -31,6 +31,5 @@ int binomial_coefficient(int n, int k) {
 int main() {
     int N, K;
     cin >> N >> K;
-    
     cout << binomial_coefficient(N, K);
 }
