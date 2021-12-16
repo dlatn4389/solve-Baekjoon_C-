@@ -25,7 +25,6 @@ int main() {
     fast_io();
     // 연산의 개수
     int N; cin >> N;
-    
     priority_queue<ll, vector<ll>, compare> pq;
     
     while (N--) {
