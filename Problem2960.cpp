@@ -26,5 +26,6 @@ int main() {
             }
         }
     }
+    
     cout << v[k-1];
 }
