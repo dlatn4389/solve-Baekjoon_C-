@@ -74,6 +74,5 @@ int main() {
             matrix[i][j] %= 1000;
         }
     }
-
     print(involution(b));
 }
