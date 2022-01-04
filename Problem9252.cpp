@@ -40,6 +40,5 @@ int main() {
     cout << length;
 
     if (length==0) return 0;
-    
     cout << lcs[size1][size2];
 }
